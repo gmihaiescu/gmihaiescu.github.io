@@ -11,9 +11,9 @@ image: /site_images/CBW_bigdata_icon.jpg
 
 Welcome to Working with Big Cancer Data in the Collaboratory Cloud at the Canadian Cancer Research Conference.  
 
-The workshop schedule can be found [here]().
+The workshop schedule can be found [here](https://bioinformaticsdotca.github.io/CloudComputing_2017_schedule).
 
-Pre-readings, pre-work, and laptop setup instructions can be found [here]()
+Pre-readings, pre-work, and laptop setup instructions can be found [here](https://bioinformaticsdotca.github.io)
 
 # Day 1 <a id="day1"></a>
 
