@@ -30,14 +30,17 @@ For Mac – already there.
 
 **SCP/SFTP client** - We will be moving data from the servers to the student laptops for visualization. Mac and Linux users already have the command line applications scp and sftp. For Windows users, please install WinSCP: http://winscp.net/eng/download.php  
 
-## Pre-workshop Readings
+# Read these before the workshop
+
+These should take less than an hour to complete.
 
 [Data Analysis: Create a cloud Commons](http://www.ncbi.nlm.nih.gov/pubmed/26156357)  
-[Analysis of five years of controlled access and data sharing compliance at the International Cancer Genome Consortium](http://www.ncbi.nlm.nih.gov/pubmed/26906679)  
 [Sequencing terminology](http://www.ncbi.nlm.nih.gov/projects/genome/glossary.shtml)
  
  
 # Do These Tutorials Before the Workshop:
+
+This should take one to two hours to complete.  
 
 * [UNIX Bootcamp](http://rik.smith-unna.com/command_line_bootcamp/?id=9xnbkx6eaof)  
 
