@@ -10,32 +10,31 @@ home: https://bioinformaticsdotca.github.io/CloudComputing_2017
 
 # Install These Tools Before the Workshop
 
-**A robust text editor.**
+**A robust text editor.**  
 
-For Windows/PC - notepad++ (http://notepad-plus-plus.org/).
-For Linux - gedit (http://projects.gnome.org/gedit/).
-For Mac – TextWrangler (http://www.barebones.com/products/textwrangler/download.html)
+For Windows/PC - notepad++ (http://notepad-plus-plus.org/).  
+For Linux - gedit (http://projects.gnome.org/gedit/).  
+For Mac – TextWrangler (http://www.barebones.com/products/textwrangler/download.html)  
 
-**A file decompression tool.**
-For Windows/PC – 7zip (http://www.7-zip.org/).
+**A file decompression tool.**  
+
+For Windows/PC – 7zip (http://www.7-zip.org/).  
 For Linux – already there.
 For Mac – already there.
 
-**A robust internet browser** such as Chrome (Internet Explorer is not recommended). Firefox and Safari are also fine.
+**A robust internet browser** such as Chrome (Internet Explorer is not recommended). Firefox and Safari are also fine.   
 
-**A PDF viewer** (Adobe Acrobat or equivalent).  
+**A PDF viewer** (Adobe Acrobat or equivalent).    
 
-**SSH client** - Mac and Linux users already have the command line ssh program that can be run from the terminal. On a MAC, the Terminal window is located in Applications/Utilities. Tip: add the terminal window to your dock so it is easy to open when needed.  For Windows users, please download PuTTY: http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
+**SSH client** - Mac and Linux users already have the command line ssh program that can be run from the terminal. On a MAC, the Terminal window is located in Applications/Utilities. Tip: add the terminal window to your dock so it is easy to open when needed.  For Windows users, please download PuTTY: http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html  
 
-**SCP/SFTP client** - We will be moving data from the servers to the student laptops for visualization. Mac and Linux users already have the command line applications scp and sftp. For Windows users, please install WinSCP: http://winscp.net/eng/download.php
+**SCP/SFTP client** - We will be moving data from the servers to the student laptops for visualization. Mac and Linux users already have the command line applications scp and sftp. For Windows users, please install WinSCP: http://winscp.net/eng/download.php  
 
 ## Pre-workshop Readings
 
 [Data Analysis: Create a cloud Commons](http://www.ncbi.nlm.nih.gov/pubmed/26156357)  
 [Analysis of five years of controlled access and data sharing compliance at the International Cancer Genome Consortium](http://www.ncbi.nlm.nih.gov/pubmed/26906679)  
-
-
- [Sequencing terminology](http://www.ncbi.nlm.nih.gov/projects/genome/glossary.shtml)
+[Sequencing terminology](http://www.ncbi.nlm.nih.gov/projects/genome/glossary.shtml)
  
  
 # Do These Tutorials Before the Workshop:
