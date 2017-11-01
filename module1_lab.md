@@ -44,11 +44,11 @@ The lab may take between 1-2 hours, depending on your familiarity with Cloud Com
 
 In your browser, go to <https://console.cancercollaboratory.org>.  Log in using your provided credentials.
 
-![image_a](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/collaboratory/mod3/mod3_a.png?raw=true)
+<img src="https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/collaboratory/mod3/mod3_a.png?raw=true" width="750" />
 
 Once logged in, the first page open will be the "Overview Page" that shows how many resources the project you are part of has access to, as well as the current usage.
 
-![image_a](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/collaboratory/mod3/mod3_b.png?raw=true)
+<img src="https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/collaboratory/mod3/mod3_b.png?raw=true" width="750" />
 
 ## Before Launching a Virtual Machine
 
@@ -56,7 +56,7 @@ Once logged in, the first page open will be the "Overview Page" that shows how m
 
 In the bar on the left of the page, under the Project, Compute tab, click on "Access and Security" and then on the "Create Key Pair" button.  Name your key-pair and click on the "Create Key Pair" button.  This will prompt you to save a file to your computer.  Take note where you save this file because you will need to find it later.
 
-![image_aa](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/collaboratory/mod3/mod3_c.png?raw=true)
+<img src="https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/collaboratory/mod3/mod3_c.png?raw=true" width="750" />
 
 **Note:** Openstack currently creates key-pairs that only work natively with Mac and Linux.  If you create a key-pair with Collaboratory and want to use it with Windows, use [PuTTY Key Generator](https://the.earth.li/~sgtatham/putty/latest/x86/puttygen.exe) to convert the key-pair to a Putty compatible key-pair.   
 
@@ -75,11 +75,11 @@ If you are using a Windows computer you will have to convert the pem key provide
 
 You will need to know your IP address for this.  To find you IP address, open a new tab or window and go to Google and search for "what is my ip".
 
-![image_a](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/collaboratory/mod3/mod3_e.png?raw=true)
+<img src="https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/collaboratory/mod3/mod3_e.png?raw=true" class="center" width="400">
 
 Return to the Collaboratory page.  Select the "Security Groups" tab and click on the "Create Security Group" button.  Name your security group (ie ssh_yourname) and write a description.  Click on "Create Security Group".
 
-![image_a](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/collaboratory/mod3/mod3_f.png?raw=true)
+<img src="https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/collaboratory/mod3/mod3_f.png?raw=true" class="center" width="400">
 
 You will need to allow SSH access from your IP address.  Beside the name for the security group you just created, click on "Manage Rules".  Click on the "Add Rule" button.  
 
@@ -99,7 +99,7 @@ Repeat this step and add a second rule with allowing TCP port 80:
 * CIDR  
 * your IP address  
 
-![image_a](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/collaboratory/mod3/mod3_g.png?raw=true)
+<img src="https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/collaboratory/mod3/mod3_g.png?raw=true" width="750" />
 
 
 ### Choose Your Flavor
