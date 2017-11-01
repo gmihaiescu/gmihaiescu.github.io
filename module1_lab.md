@@ -46,7 +46,7 @@ In your browser, go to <https://console.cancercollaboratory.org>.  Log in using 
 
 <img src="https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/collaboratory/mod3/mod3_a.png?raw=true" width="750" />
 
-Once logged in, the first page open will be the "Overview Page" that shows how many resources the project you are part of has access to, as well as the current usage.
+Once logged in, the first page open will be the "Overview Page" that shows the resources available to your project, as well as the current usage.
 
 <img src="https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/collaboratory/mod3/mod3_b.png?raw=true" width="750" />
 
@@ -58,22 +58,14 @@ In the bar on the left of the page, under the Project, Compute tab, click on "Ac
 
 <img src="https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/collaboratory/mod3/mod3_c.png?raw=true" width="750" />
 
-**Note:** Openstack currently creates key-pairs that only work natively with Mac and Linux.  If you create a key-pair with Collaboratory and want to use it with Windows, use [PuTTY Key Generator](https://the.earth.li/~sgtatham/putty/latest/x86/puttygen.exe) to convert the key-pair to a Putty compatible key-pair.   
 
 #### On Windows with PuTTY
 
-If you are using a Windows computer you will have to convert the pem key provided by Openstack to a format recognized by Putty, the free SSH client utility. In order to do this, you need to start the PuTTY Key Generator (https://the.earth.li/~sgtatham/putty/latest/x86/puttygen.exe)
-
-<img src="https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/collaboratory/mod3/mod3_aa.png?raw=true" class="center" width="400">
-
-<img src="https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/collaboratory/mod3/mod3_bb.png?raw=true" class="center" width="400">
-
-
-<img src="https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/collaboratory/mod3/mod3_cc.png?raw=true" class="center" width="400">
+Openstack currently creates key-pairs that only work natively with Mac and Linux, so if you are using a Windows computer you will have to convert the pem key provided by Openstack to a format recognized by Putty, the free SSH client utility. In order to do this, you need to start the PuTTY Key Generator (https://www.ssh.com/ssh/putty/windows/puttygen) and follow the instructions about converting the key provided at https://github.com/naturalis/openstack-docs/wiki/Howto:-Creating-and-using-OpenStack-SSH-keypairs-on-Windows
 
 ### Customize Your Security Groups - this step is not needed because we already customized the security group with a rule allowing all SSH traffic, but it's here for future reference
 
-You will need to know your IP address for this.  To find you IP address, open a new tab or window and go to Google and search for "what is my ip".
+You will need to know your IP address for this. To find your IP address, open a new tab or window and go to Google and search for "what is my ip".
 
 <img src="https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/collaboratory/mod3/mod3_e.png?raw=true" class="center" width="400">
 
@@ -106,7 +98,7 @@ Repeat this step and add a second rule with allowing TCP port 80:
 
 In the menu on the left, select "Instances."  Click on the "Launch Instance" button.
 
-![image_a](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/collaboratory/mod3/mod3_h.png?raw=true)
+<img src="https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/collaboratory/mod3/mod3_h.png?raw=true" width="750" />
 
 Make sure you are in the "Details" tab.  
 
@@ -119,25 +111,25 @@ In the dropdown menus and boxes, select or enter:
 * Boot from image  
 * Ubuntu 16.04 - latest
 
-![image_a](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/collaboratory/mod3/mod3_i.png?raw=true)
+<img src="https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/collaboratory/mod3/mod3_i.png?raw=true" width="750" />
 
 Select the "Access and Security" tab.  Select the key pair you previously created and check the box beside "ssh".  
 
-![image_a](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/collaboratory/mod3/mod3_j.png?raw=true)
+<img src="https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/collaboratory/mod3/mod3_j.png?raw=true" width="750" />
 
 Select the "Networking" tab.  Choose the appropriate network.
 
-![image_a](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/collaboratory/mod3/mod3_k.png?raw=true)
+<img src="https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/collaboratory/mod3/mod3_k.png?raw=true" width="750" />
 
 Launch the instance by hitting the "Launch" button.
 
-![image_a](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/collaboratory/mod3/mod3_l.png?raw=true)
+<img src="https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/collaboratory/mod3/mod3_l.png?raw=true" width="750" />
 
 It will take a few minutes for the instance to start.
 
 To view your instances, in the left hand menu, click on "Instances".
 
-![image_a](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/collaboratory/mod3/mod3_m.png?raw=true)
+<img src="https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/collaboratory/mod3/mod3_m.png?raw=true" width="750" />
 
 ## Associate a Floating/Public IP Address
 
@@ -147,7 +139,7 @@ It is recommended to associate a floating/public IP address only to a single VM 
 
 From the "Compute" menu, select "Instances."  Beside the name of your instance, select "Associate Floating IP."
 
-![image_a](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/collaboratory/mod3/mod3_aaa.png?raw=true)
+<img src="https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/collaboratory/mod3/mod3_aaa.png?raw=true" width="750" />
 
 ## Log Into Your Instance
 
